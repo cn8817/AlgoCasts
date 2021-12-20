@@ -21,18 +21,17 @@ function capitalize(str) {
 }
 
 // another way without all the built in functions
-function capitalize(str) {
-    let result = str[0].toUpperCase() // the first character of the string will always be uppercase
+// function capitalize(str) {
+//     let result = str[0].toUpperCase() // the first character of the string will always be uppercase
 
-    for(let i = 1; i < str.length; i++){ //loop thru the string
-        if(str[i - 1] === ' '){ //if the value to the left of the character is a space
-            result += str[i].toUpperCase() // uppsercase the character and add it to the result
-        } else{
-            result += str[i] //if there is no space left of the character, just add the lowercase character to the result
-        }
-    }
-    return result
-
-}
+//     for(let i = 1; i < str.length; i++){ //loop thru the string
+//         if(str[i - 1] === ' '){ //if the value to the left of the character is a space
+//             result += str[i].toUpperCase() // uppsercase the character and add it to the result
+//         } else{
+//             result += str[i] //if there is no space left of the character, just add the lowercase character to the result
+//         }
+//     }
+//     return result
+// }
 
 module.exports = capitalize;
