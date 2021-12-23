@@ -12,7 +12,7 @@ function reverseInt(n) {
     let reversed = n
     .toString() //turn the number to a string
     .replace('-', '') //replaces negative with empty string to remove it completely
-    .split('') //split only works with strings, ex: '51' = ['5', '1'] bc of split
+    .split('') //split only works with strings,turns string to an array ex: '51' = ['5', '1']
     .reverse() //reverse the array
     .join('') //join each array value back to a string
 

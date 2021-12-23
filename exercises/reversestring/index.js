@@ -9,7 +9,7 @@
 function reverse(str) {
     let reversed = ''
     for(let char of str){ //loop thru each character in the string
-        reversed = char + reversed // try it yourself if you dont understand how it works
+        reversed = char + reversed // try it yourself if you dont understand how it works lol
     }
     return reversed
 }
